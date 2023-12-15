@@ -1,4 +1,4 @@
-package net.pamimod.pamitribu.item;
+package net.pamimod.pamitribu.item.custom;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, PamiTribu.MOD_ID);
 
     public static final RegistryObject<Item> NAVAJA = ITEMS.register("navaja",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
