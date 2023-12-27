@@ -2,17 +2,17 @@
   "parent": "minecraft:item/handheld",
   "loader": "forge:separate_transforms",
   "base": {
-    "parent": "pamitribu:item/navaja3D"
+    "parent": "pamitribu:item/navaja_3d"
   },
   "perspectives": {
     "gui": {
-      "parent": "pamitribu:item/navaja3D"
+      "parent": "pamitribu:item/navaja_3d"
     },
     "ground": {
-      "parent": "pamitribu:item/navaja3D"
+      "parent": "pamitribu:item/navaja_3d"
     },
     "fixed": {
-      "parent": "pamitribu:item/navaja3D"
+      "parent": "pamitribu:item/navaja_3d"
     }
   }
 }
