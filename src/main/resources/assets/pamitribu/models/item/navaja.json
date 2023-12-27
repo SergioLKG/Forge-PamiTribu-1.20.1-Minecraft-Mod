@@ -1,6 +1,18 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "pamitribu:item/navaja"
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "pamitribu:item/navaja3D"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "pamitribu:item/navaja3D"
+    },
+    "ground": {
+      "parent": "pamitribu:item/navaja3D"
+    },
+    "fixed": {
+      "parent": "pamitribu:item/navaja3D"
+    }
   }
 }
